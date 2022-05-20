@@ -1,11 +1,8 @@
 name: ${project.name}
 author: DreamVoid
 description: ${project.description}
-main: me.dreamvoid.forgemodchecker.bukkit.BukkitPlugin
+main: me.dreamvoid.forgemodchecker.bungee.BungeePlugin
 version: ${project.version}
-api-version: 1.16
-prefix: DreamVoidPlugin
-webside: ${project.url}
 commands:
   checkmod:
     description: Check if player installed a mod.
